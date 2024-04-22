@@ -105,3 +105,42 @@
     /* right: 50%; */
     left: 33%;
 }
+
+.herobtnContainer{
+    display: flex;
+    align-items: center;
+}
+
+.learnContainer{
+    flex: none;
+    height: auto;
+    position: relative;
+    width: auto;
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 6px;
+    height: min-content;
+    justify-content: flex-start;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    gap: 4px;
+    text-decoration: none;
+    margin-left: 2em;
+}
+
+.learnContainer p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}
+
+.learnContainer img{
+    flex: none;
+    overflow: visible;
+    position: relative;
+    padding-left: 0.5em;
+}

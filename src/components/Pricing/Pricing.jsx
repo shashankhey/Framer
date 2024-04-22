@@ -20,7 +20,7 @@ const Pricing = () => {
           </div>
         </div>
         <div className="buttonContainer">
-          <div className="btn">
+          <div className="btn1">
             <div className="btn-text">
               <p>Get Started for free</p>
             </div>
