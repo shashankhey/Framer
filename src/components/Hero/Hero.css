@@ -1,0 +1,107 @@
+.hero {
+  width: 100%;
+  min-height: 90vh;
+  background: url("../../assets/bg.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10%;
+  margin-top: 2.5em;
+  overflow-y: hidden;
+}
+
+.hero-text {
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    /* justify-content: center; */
+    overflow: visible;
+    padding: 0px 20px 50px;
+    position: relative;
+    /* width: 100%; */
+    /* z-index: 1; */
+  overflow-y: hidden;
+}
+
+.hero-left-text {
+    margin-top: 5em;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 40%;
+}
+
+.hero-left-text h1{
+    display: inline-block;
+    font-size: 50px;
+    font-weight: 600;
+    background-image: linear-gradient(179deg, rgb(0, 0, 0) 52.8294%, rgb(34, 64, 171) 100%);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.version-text{
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 20%;
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 90px;
+    font-weight: 600;
+}
+
+.description {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #000;
+    width: 70%;
+}
+
+.hero-img {
+    margin-top: 3em;
+    justify-content: flex-end;
+    right: 0;
+    z-index: 1;
+}
+
+.hero-img img{
+    width: 100%;
+}
+
+.torus {
+    position: absolute;
+    /* z-index: 990999; */
+    top: 73%;
+    /* bottom: 1%; */
+    right: 2%;
+}
+
+.cylinder {
+    position: absolute;
+    /* z-index: 990999; */
+    top: 15%;
+    /* bottom: 50%; */
+    /* right: 50%; */
+    left: 33%;
+}

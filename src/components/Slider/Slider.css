@@ -1,0 +1,29 @@
+.slider {
+    margin: 3.5em 7em;
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.slider .slider-track {
+    animation: scroll 30s linear infinite;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    white-space: nowrap;
+    width: 100%; /* Adjusted to fit all slides without wrapping */
+  }
+  
+  .slider .slide {
+    flex-shrink: 0;
+  }

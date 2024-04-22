@@ -1,0 +1,47 @@
+.header-main{
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.header-line {
+    background-color: black;
+    color: #afaeae;
+    text-align: center;
+    padding: 14px 25px;
+    font-size: 14px;
+}
+
+.header-line p span {
+    color: white;
+    padding-left: 5px;
+}
+
+.header-line p span img{
+    padding-left: 2px;
+}
+nav{
+    margin-top: 0px;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    color: rgb(70, 70, 70);
+    padding: 4px 0;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+    z-index: 999;
+}
+
+.logo{
+    width: 120px;
+}
+nav ul li{
+    display: inline-flex;
+    align-items: center;
+    list-style: none;
+    margin: 5px 10px;
+    font-size: 15px;
+}

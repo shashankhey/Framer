@@ -1,0 +1,123 @@
+.box-container {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 8em;
+}
+
+.streamlined-container {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  flex-basis: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+.item-box {
+  align-content: center;
+  align-items: center;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #0000001a;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  overflow: hidden;
+  padding: 40px;
+  position: relative;
+  width: 1px;
+  flex-basis: 37%;
+  margin-bottom: 2em;
+}
+
+.imageContainer {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: 361px;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 100%;
+  flex: none;
+  height: 100%;
+  overflow: visible;
+  position: relative;
+  width: 379px;
+}
+
+.imageContainer img {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  object-position: center;
+  object-fit: cover;
+  image-rendering: auto;
+}
+
+.text-container{
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 10px;
+    height: min-content;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.heading{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.heading h4{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.description{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+    flex: none;
+    height: auto;
+    max-width: 300px;
+    position: relative;
+    white-space: pre-wrap;
+    width: 100%;
+}
+
+.description p{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1;
+    line-height: 2;
+}

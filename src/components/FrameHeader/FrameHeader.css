@@ -1,0 +1,26 @@
+.frameContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.frameHeader{
+    height: auto;
+    max-width: 550px;
+}
+
+.frameHeader h2{
+    font-size: 54px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.3em;
+}
+
+.frameHeader p {
+    font-size: 22px;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 0.4em;
+}

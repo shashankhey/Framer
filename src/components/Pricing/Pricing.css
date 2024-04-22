@@ -1,0 +1,344 @@
+.pricing-container {
+    align-items: flex-end;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    margin-top: 3em;
+}
+
+.small-container {
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  align-content: flex-start;
+  align-items: flex-start;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px #0000001a;
+  display: flex;
+  flex: 1 0 0px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 30px;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 320px;
+  overflow: hidden;
+  padding: 40px;
+  position: relative;
+  width: 1px;
+}
+
+.medium-container {
+    border: 1px solid rgba(34, 34, 34, 0.1);
+    align-content: flex-start;
+    align-items: flex-start;
+    background-color: #000;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px #0000001a;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+    height: min-content;
+    justify-content: flex-start;
+    max-width: 320px;
+    overflow: hidden;
+    padding: 40px;
+    position: relative;
+    width: 1px;
+  }
+
+.valueTag {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+}
+
+.valueTag h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+
+.priceContainer {
+  align-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 4px;
+  height: min-content;
+  justify-content: flex-start;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.price {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+}
+
+.price h2 {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.month {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+}
+
+.month h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.buttonContainer {
+  flex: none;
+  height: auto;
+  position: relative;
+  width: 100%;
+  z-index: 2;
+}
+
+.btn {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: rgb(0, 0, 0);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 0.602187px 1.80656px -1.25px,
+    rgba(0, 0, 0, 0.063) 0px 2.28853px 6.8656px -2.5px,
+    rgba(0, 0, 0, 0.024) 0px 10px 30px -3.75px;
+  filter: brightness(1);
+  width: 100%;
+  opacity: 1;
+}
+
+.btn-text {
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  transform: none;
+  opacity: 1;
+}
+
+.btn-text p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.listContainer {
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 20px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.list {
+  display: flex;
+  flex: none;
+}
+
+.list img{
+    margin-right: 2em;
+}
+
+.list p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.valueTag2 {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: min-content;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .text h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    opacity: 0.8;
+  }
+
+.btnPopular{
+    border: 1px solid rgba(255, 255, 255, 0.17);
+    backdrop-filter: blur(5px);
+    background-color:  rgb(13, 13, 13);
+    border-radius: 10px;
+    opacity: 1;
+    padding: 10px 12px;
+}
+
+.btn-text-popular{
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    opacity: 1;
+    transform: none;
+}
+
+.btn-text-popular p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.priceContainer2 {
+    align-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 4px;
+    height: min-content;
+    justify-content: flex-start;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .price2 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+  }
+  
+  .price2 h2 {
+    font-size: 54px;
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+  .month2 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-shrink: 0;
+    transform: none;
+  }
+  
+  .month2 h5 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+
+  .buttonContainer2 {
+    flex: none;
+    height: auto;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+  }
+  
+  .btn2 {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0.602187px 1.80656px -1.25px,
+      rgba(0, 0, 0, 0.063) 0px 2.28853px 6.8656px -2.5px,
+      rgba(0, 0, 0, 0.024) 0px 10px 30px -3.75px;
+    filter: brightness(1);
+    width: 100%;
+    opacity: 1;
+  }
+  
+  .btnText2 {
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    flex-shrink: 0;
+    transform: none;
+    opacity: 1;
+  }
+  
+  .btnText2 p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+  }
+
+  .listContainer2 {
+    align-items: flex-start;
+    display: flex;
+    flex: none;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: min-content;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    width: 100%;
+  }
+  
+  .list2 {
+    display: flex;
+    flex: none;
+  }
+  
+  .list2 img{
+      margin-right: 2em;
+  }
+
+  .list2 p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff;
+  }
